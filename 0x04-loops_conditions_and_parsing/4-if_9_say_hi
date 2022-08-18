@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Displays 'Best School' in stdout 10 times and hi newline
+i=1
+while [ $i -le 10 ]
+do
+	echo "Best school"
+	if test $i == 9
+	then
+		echo "Hi"
+	fi
+	i=$(( i + 1 ))
+done
