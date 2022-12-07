@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kill guicorn worker process gracefully, with no downtime
+pkill -HUP guicorn
